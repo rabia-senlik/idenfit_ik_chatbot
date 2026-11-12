@@ -1,0 +1,14 @@
+*.pdf
+idenfit*
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+*.exe
+OllamaSetup.exe
+*.log
+st_err.log
+st_out.log
+.gemini

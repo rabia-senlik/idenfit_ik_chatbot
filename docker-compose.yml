@@ -1,0 +1,14 @@
+services:
+  idenfit-rag:
+    build: .
+    container_name: idenfit_rag_asistan
+    ports:
+      - "8501:8501"
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped
+

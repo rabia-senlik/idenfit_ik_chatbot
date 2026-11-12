@@ -1,0 +1,27 @@
+# Sirket ici dokumanlar ve PDF'ler
+*.pdf
+idenfit*
+
+# Kurulum ve buyuk dosyalar
+*.exe
+OllamaSetup.exe
+
+# Python onbellek
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Gecici log dosyalari
+*.log
+st_err.log
+st_out.log
+
+# IDE ve Agent dosyalari
+.gemini/
+.idea/
+.vscode/
